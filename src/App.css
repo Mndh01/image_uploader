@@ -40,7 +40,6 @@
   color: #f8eded;
 }
 .App {
-  margin-top: 30vh;
  text-align: center;
  display: flex;
  flex-direction: column;
@@ -53,4 +52,21 @@
   align-items: center;
   align-content: space-around;
   flex-direction: row;
+}
+
+.imgContainer {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  flex-direction: row;
+  width: 50%;
+  margin-left: 25%;
+  overflow: auto;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  margin: 5px;
 }
